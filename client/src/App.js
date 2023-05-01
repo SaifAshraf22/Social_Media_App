@@ -3,13 +3,13 @@ import img from './assets/rocket.png'
 import Signup from './components/Signup';
 function App() {
   return (
-    <div className='container'>
+    <div className='container mt-3'>
       <div className='row'>
-        <div className='col1'>
+        <div className='col-md-5'>
           <Signup/>
         </div>
-        <div className='col2'>
-          <img className='img ' src={img}/>
+        <div className='col-md-7 my-auto'>
+          <img className='img-fluid w-100' src={img}/>
         </div>
       </div>
     </div>
