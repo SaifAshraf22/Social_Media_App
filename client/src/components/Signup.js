@@ -43,7 +43,7 @@ function signup() {
             <TextField label="Email" name="email" type="email" />
             <TextField label="password" name="password" type="password" />
             <TextField label="Confirm Password" name="confirmPassword" type="password" />
-            <button className="btn btn-dark mt-3" type="submit">Register</button>
+            <button className="btn btn-dark mt-3 " type="submit">Register</button>
             <button className="btn btn-danger mt-3 ml-3" type="reset">Reset</button>
           </Form>
         </div>
