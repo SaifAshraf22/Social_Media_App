@@ -17,7 +17,7 @@ function Posts() {
             </div>
                 <div className='postConter'>
                     <span className='postText'>Hey! It's my first post :)</span>
-                    <img className='postImg'src='https://th.bing.com/th/id/OIP.Vt3kGu4X6WQlmH91GpJpzgHaFH?pid=ImgDet&rs=1' alt=''/>
+                    <img className='postImg'src='https://th.bing.com/th/id/R.01e3baa4c4bdc804646f002d458e4554?rik=h%2feSikKKiHwjJg&pid=ImgRaw&r=0' alt=''/>
                 </div>
                     <div className='postBottom'>
                         <div className='postBottomLeft'>
