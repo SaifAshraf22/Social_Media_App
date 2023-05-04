@@ -2,7 +2,6 @@ import React from 'react'
 import {Formik,Form, validateYupSchema} from 'formik'
 import TextField from './TextField'
 import * as Yup from 'yup'
-import Topbar from '../Navbar/Topbar'
 function Signup() {
     const validate = Yup.object({
     firstName: Yup.string()
