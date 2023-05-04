@@ -33,7 +33,7 @@ function Topbar() {
                 <span className='topbarIconBadge'>1</span>
                 </div>
             </div>
-            <img src="/client/src/components/Navbar/person.jpg" className='topbarImg'/>
+            <img src="https://th.bing.com/th/id/R.da1ce16d58c86a77cfc5bdeb8d5faedc?rik=JEHfqc%2fff5c67A&pid=ImgRaw&r=0" className='topbarImg'/>
         </div>
     </div>
   )
