@@ -3,7 +3,7 @@ import {Formik,Form, validateYupSchema} from 'formik'
 import TextField from './TextField'
 import * as Yup from 'yup'
 import Topbar from '../Navbar/Topbar'
-function signup() {
+function Signup() {
     const validate = Yup.object({
     firstName: Yup.string()
       .max(15, 'Must be 15 characters or less')
@@ -53,4 +53,4 @@ function signup() {
   )
 }
 
-export default signup
+export default Signup

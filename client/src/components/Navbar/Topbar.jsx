@@ -2,6 +2,7 @@ import React from 'react'
 import './Topbar.css'
 // import person from'/client/src/assets/person.jpg'
 import {Search,Person,Chat,NotificationAdd} from'@mui/icons-material'
+import { Link } from 'react-router-dom'
 function Topbar() {
   return (
     <div className='topbarContainer'>
@@ -17,7 +18,9 @@ function Topbar() {
         <div className='topbarRight'>
             <div className='topbarLinks'>
                 <span className='topbarLink'>Homepage</span>
-                <span className='topbarLink'>Timeline</span>
+                <Link to="/signup">
+                <span className='topbarLink'>Log out</span>
+                </Link>
             </div>
             <div className='topbarIcon'>
                 <div className='topbarIconItem'>
