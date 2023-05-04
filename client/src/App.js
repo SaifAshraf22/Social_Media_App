@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Home/>
-      {/* <Topbar/>
-    <div className='container mt-3'>
+      {/* <Topbar/> */}
+    {/* <div className='container mt-3'>
       <div className='row'>
         <div className='col-md-5'>
           <Signup/>

@@ -8,7 +8,7 @@ function Posts() {
             <div className='postTop'>
                 <div className='postTopLeft'>
                     <img className='postProfileImg' src='https://th.bing.com/th/id/R.da1ce16d58c86a77cfc5bdeb8d5faedc?rik=JEHfqc%2fff5c67A&pid=ImgRaw&r=0'alt=''/>
-                    <span className='postUsername'>Saif</span>
+                    <span className='postUsername'>M.Salah</span>
                     <span className='postDate'>5 minute ago</span>
                 </div>
                 <div className='postTopRight'>
