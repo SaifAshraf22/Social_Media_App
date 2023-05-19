@@ -2,7 +2,11 @@ import React from 'react'
 import {Formik,Form, validateYupSchema} from 'formik'
 import TextField from './TextField'
 import * as Yup from 'yup'
+import {Link, Navigate, useNavigate} from "react-router-dom"
 function Signup() {
+  const navigate = useNavigate()
+
+  
     const validate = Yup.object({
     firstName: Yup.string()
       .max(15, 'Must be 15 characters or less')
@@ -32,6 +36,9 @@ function Signup() {
       validationSchema={validate}
       onSubmit={values => {
         console.log(values)
+        navigate("/");
+
+        
       }}
     >
       {formik => (
@@ -43,7 +50,7 @@ function Signup() {
             <TextField label="Email" name="email" type="email" />
             <TextField label="password" name="password" type="password" />
             <TextField label="Confirm Password" name="confirmPassword" type="password" />
-            <button className="btn btn-dark mt-3 " type="submit">Register</button>
+            <button className="btn btn-primary mt-3 " type="submit">Register</button>
             <button className="btn btn-danger mt-3 ml-3" type="reset">Reset</button>
           </Form>
         </div>

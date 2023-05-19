@@ -7,7 +7,7 @@ function Rightbar() {
         <div className='birthdayContainer'>
           <img className='birthdayImg'src='https://thumbs.dreamstime.com/z/red-gift-box-gold-ribbon-16824149.jpg'alt=''/>
           <span className='bithdayText'>
-            <b>sadio mané </b>and <b>3 others friends</b> have a birthday today
+            <b>Sadio Mané </b>and <b>3 others friends</b> have a birthday today
           </span>
         </div>
         <img className='rightbarAd' src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/256f0118954529.562d231c1c7c5.jpg' alt=''/>
